@@ -1,0 +1,44 @@
+// LAYOUT
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+// SPACERS
+@each $size in 0, 1, 2, 3, 4, 6 {
+    .mt-#{$size} {
+        margin-top: $size + 0rem;
+    }
+    .pt-#{$size} {
+        margin-top: $size + 0rem;
+    }
+    .mb-#{$size} {
+        margin-bottom: $size + 0rem;
+    }
+    .pb-#{$size} {
+        margin-bottom: $size + 0rem;
+    }
+}
+
+// ALIGN 
+.text-center {
+    text-align: center;
+}
+
+// DISPLAY
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+// LIST 
+.no-list {
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: $black;
+}
