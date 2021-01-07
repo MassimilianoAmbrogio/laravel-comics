@@ -7,7 +7,7 @@
        <a href="">Additional DC Sities</a>
     </div>
     <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{ route('home-page') }}">
            <img src="{{ asset('images/logo.png') }}" alt="DC Comics logo">
         </a>
 

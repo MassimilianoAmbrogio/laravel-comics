@@ -13,7 +13,7 @@
                <ul class="comics-list no-list">
                    @foreach($comics as $comic)
                        <li>
-                           <a class="no-list" href="">
+                           <a class="no-list" href="{{ route('comic-detail', $comic['id']) }}">
                                <img src="{{ $comic['image'] }}" alt="{{ $comic['title'] }}">
                                <h3>{{ $comic['title'] }}</h3>
                            </a>
@@ -21,7 +21,6 @@
                    @endforeach
                </ul>
            </div>
- 
        </section>
    </main>
 @endsection
