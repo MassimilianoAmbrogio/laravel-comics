@@ -4,7 +4,7 @@
    <main class="wrap-home">
        <section class="general-hero">
            <div class="container">
-               <img src="{{ asset('images/cover-home.jpg') }}" alt="Teen go cover">
+               <img class="cover-img" src="{{ asset('images/cover-home.jpg') }}" alt="Teen go cover">
            </div>
        </section>
 

@@ -1,0 +1,69 @@
+header {
+
+    .cont-power-add {
+        justify-content: right; 
+        width: 100%;
+        height: 40px;
+        background: $primary-col;
+    }
+
+    .cont-power-add a {
+        display: inline-block;
+        margin-top: 10px;
+        padding-left: 5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $white;
+    }
+
+    .cont-power-add .fa-sort-down {
+        margin-top: 6px;
+        padding-right: 1rem;
+        padding-left: 4px;
+        color: $white;
+        cursor: pointer;
+    }
+
+    .navbar-brand img {
+        margin-top: 10px;
+    }
+
+    .lists {
+        margin-left: 100px;
+        list-style: none;
+    }
+
+    .lists .no-list {
+        color: $tertiary-col;
+        font-weight: 800;
+        padding: 20px;
+    }
+
+    .lists .icon-2 {
+        margin-top: -20px;
+        padding-left: 76px;
+        color: $primary-col;
+        cursor: pointer;
+    }
+
+    .search {
+        padding: 2px;
+        padding-right: 20px;
+        padding-left: 40px;
+        margin-left: 50px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 800;
+        color: $black;
+        border-bottom: 2px solid $primary-col;
+    }
+
+    .fa-search {
+        margin-top: -23px;
+        margin-left: 160px;
+        padding: 4px;
+        color: $secondary-col;
+        border-bottom: 2px solid $primary-col;
+    }
+}

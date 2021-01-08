@@ -2,9 +2,10 @@
     MAIN SITE HEADER
 --}}
 <header class="main-header">
-    <div class="cont-power-add">
-       <a href="">DC Power Visa</a>
-       <a href="">Additional DC Sities</a>
+    <div class="cont-power-add flex">
+       <a href="#">DC Power℠ Visa®</a>
+       <a href="#">Additional DC Sities</a>
+       <i class="fas fa-sort-down"></i>
     </div>
     <div class="container">
         <a class="navbar-brand" href="{{ route('home-page') }}">
@@ -12,39 +13,44 @@
         </a>
 
         <nav class="navbar-nav">
-            <ul>
+            <ul class="lists flex">
                 <li>
-                    <a href="#">Characters</a>
+                    <a class="no-list" href="#">Characters</a>
                 </li>
                 <li>
-                    <a href="#">Comics</a>
+                    <a class="no-list" href="#">Comics</a>
                 </li>
                 <li>
-                    <a href="#">Movies</a>
+                    <a class="no-list" href="#">Movies</a>
                 </li>
                 <li>
-                    <a href="#">Tv</a>
+                    <a class="no-list" href="#">Tv</a>
                 </li>
                 <li>
-                    <a href="#">Games</a>
+                    <a class="no-list" href="#">Games</a>
                 </li>
                 <li>
-                    <a href="#">Collectibles</a>
+                    <a class="no-list" href="#">Collectibles</a>
                 </li>
                 <li>
-                    <a href="#">Videos</a>
+                    <a class="no-list" href="#">Videos</a>
                 </li>
                 <li>
-                    <a href="#">Fans</a>
+                    <a class="no-list" href="#">Fans</a>
                 </li>
                 <li>
-                    <a href="#">News</a>
+                    <a class="no-list" href="#">News</a>
                 </li>
                 <li>
-                    <a href="#">Shop</a>
+                    <a class="no-list" href="#">Shop
+                        <i class="fas fa-sort-down icon-2 flex"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="search" href="#">Search</a>
+                    <i class="fas fa-search flex"></i>
                 </li>
             </ul>
-
         </nav>
     </div>
 </header>

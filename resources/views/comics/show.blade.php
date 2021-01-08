@@ -4,7 +4,7 @@
    <main class="comic-detail">
        <section class="general-hero" style="background-image: url({{ $comic['image-hero'] }});">
            <div class="container">
-               <img src="{{ $comic['image-cover'] }}" alt="{{ $comic['title'] }}">
+               <img class="cover-img" src="{{ $comic['image-cover'] }}" alt="{{ $comic['title'] }}">
            </div>
        </section>
 
