@@ -11,7 +11,7 @@
         <a class="navbar-brand" href="{{ route('home-page') }}">
            <img src="{{ asset('images/logo.png') }}" alt="DC Comics logo">
         </a>
-
+        
         <nav class="navbar-nav">
             <ul class="lists flex">
                 <li>
