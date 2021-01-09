@@ -1,4 +1,6 @@
 {{--
     MAIN FOOTER
 --}}
-<footer class="main-footer">FOOTER HERE...</footer>
+<footer class="main-footer">
+    <h1>DC Comics</h1>
+</footer>

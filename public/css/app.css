@@ -144,7 +144,7 @@ header .cont-power-add a {
 }
 header .cont-power-add .fa-sort-down {
   margin-top: 6px;
-  padding-right: 1rem;
+  padding-right: 12rem;
   padding-left: 4px;
   color: #fff;
   cursor: pointer;
@@ -153,7 +153,6 @@ header .navbar-brand img {
   margin-top: 10px;
 }
 header .lists {
-  margin-left: 100px;
   list-style: none;
 }
 header .lists .no-list {
@@ -189,6 +188,75 @@ header .fa-search {
 main .container .cover-img {
   margin-left: 40px;
   margin-top: 11%;
+  border: 1px solid #fff;
+}
+main .container-blue {
+  width: 100%;
+  height: 34px;
+  background: #0282f9;
+}
+main .container-blue p {
+  display: inline-block;
+  margin-top: 2px;
+  margin-left: 15%;
+  font-size: 26px;
+  padding: 0px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background: #0282f9;
+}
+main .comics {
+  width: 100%;
+  background: #1c1c1c;
+}
+main .comics-list h3 {
+  font-size: 13px;
+  color: #fff;
+}
+main .load {
+  width: 198px;
+  height: 40px;
+  margin-left: 300%;
+  background: #0282f9;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+main .load p {
+  padding: 10px 50px;
+  font-weight: 600;
+  color: #fff;
+}
+main .cont-blue {
+  justify-content: center;
+  width: 100%;
+  height: 160px;
+  background: #0282f9;
+}
+main .cont-blue img {
+  width: 50px;
+  padding: 10px;
+  padding-left: 60px;
+}
+main .cont-blue p {
+  margin-right: 60px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+main .cont-white {
+  width: 100%;
+  height: 60px;
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background: #0282f9;
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .general-hero {
@@ -201,7 +269,7 @@ main .container .cover-img {
 .comics-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  grid-gap: 2rem;
+  grid-gap: 2.2rem;
 }
 .comics-list img {
   width: 100%;

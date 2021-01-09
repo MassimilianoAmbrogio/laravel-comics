@@ -2,5 +2,75 @@ main {
     .container .cover-img {
         margin-left: 40px;
         margin-top: 11%;
+        border: 1px solid $white;
+    }
+
+    .container-blue {
+        width: 100%;
+        height: 34px;
+        background: $primary-col;
+    }
+
+    .container-blue p {
+        display: inline-block;
+        margin-top: 2px;
+        margin-left: 15%;
+        font-size: 26px;
+        padding: 0px 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $white;
+        background: $primary-col;
+    }
+
+    .comics {
+        width: 100%;
+        background: $light-black;
+    }
+
+    .comics-list h3 {
+        font-size: 13px;
+        color: $white;
+    }
+
+    .load {
+        width: 198px;
+        height: 40px;
+        margin-left: 300%;
+        background: $primary-col;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .load p {
+        padding: 10px 50px;
+        font-weight: 600;
+        color: $white;
+    }
+
+    .cont-blue {
+        justify-content: center;
+        width: 100%;
+        height: 160px;
+        background: $primary-col;
+    }
+
+    .cont-blue img {
+        width: 50px;
+        padding: 10px;
+        padding-left: 60px;
+    }
+
+    .cont-blue p {
+        margin-right: 60px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $white;
+    }
+
+    .cont-white {
+        width: 100%;
+        height: 60px;
     }
 }

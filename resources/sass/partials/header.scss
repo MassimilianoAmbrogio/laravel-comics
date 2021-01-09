@@ -1,5 +1,4 @@
 header {
-
     .cont-power-add {
         justify-content: right; 
         width: 100%;
@@ -19,7 +18,7 @@ header {
 
     .cont-power-add .fa-sort-down {
         margin-top: 6px;
-        padding-right: 1rem;
+        padding-right: 12rem;
         padding-left: 4px;
         color: $white;
         cursor: pointer;
@@ -30,7 +29,6 @@ header {
     }
 
     .lists {
-        margin-left: 100px;
         list-style: none;
     }
 

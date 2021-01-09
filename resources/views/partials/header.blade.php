@@ -2,17 +2,20 @@
     MAIN SITE HEADER
 --}}
 <header class="main-header">
+    {{-- Power and additional --}}
     <div class="cont-power-add flex">
        <a href="#">DC Power℠ Visa®</a>
        <a href="#">Additional DC Sities</a>
        <i class="fas fa-sort-down"></i>
     </div>
     <div class="container">
+        {{-- Logo home page --}}
         <a class="navbar-brand" href="{{ route('home-page') }}">
            <img src="{{ asset('images/logo.png') }}" alt="DC Comics logo">
         </a>
         
         <nav class="navbar-nav">
+            {{-- Links --}}
             <ul class="lists flex">
                 <li>
                     <a class="no-list" href="#">Characters</a>
