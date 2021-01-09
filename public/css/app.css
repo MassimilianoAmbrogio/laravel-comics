@@ -228,7 +228,7 @@ main .comics-list h3 {
 main .load {
   width: 198px;
   height: 40px;
-  margin-left: 300%;
+  margin-left: 290%;
   background: #0282f9;
   margin-bottom: 20px;
   cursor: pointer;
@@ -264,6 +264,21 @@ main .cont-show-blue {
   width: 100%;
   height: 90px;
   background: #0282f9;
+  justify-content: right;
+}
+main .socials {
+  width: 40px;
+  height: 40px;
+  margin-top: 58px;
+  margin-left: 97.7%;
+  justify-content: center;
+  flex-direction: column;
+}
+main .socials i {
+  padding: 12px;
+  font-size: 24px;
+  color: #fff;
+  background: #3b5998;
 }
 
 footer {

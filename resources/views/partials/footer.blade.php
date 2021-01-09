@@ -44,11 +44,13 @@
             <p>DC Power Visa</p>
         </div>
     </div>
+    
     {{-- Copyright --}}
     <div class="cont-copyright">
         <p>All Site Content TM and ­&#169; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved.
            <a href="#">Cookies Settings</a></p>
     </div>
+
     {{-- Cont (bottom and socials) --}}
     <div class="cont-bottom-icons flex align-center">
         <button>Sign-Up Now!</button>

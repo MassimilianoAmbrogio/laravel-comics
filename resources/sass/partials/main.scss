@@ -36,7 +36,7 @@ main {
     .load {
         width: 198px;
         height: 40px;
-        margin-left: 300%;
+        margin-left: 290%;
         background: $primary-col;
         margin-bottom: 20px;
         cursor: pointer;
@@ -78,5 +78,22 @@ main {
         width: 100%;
         height: 90px;
         background: $primary-col;
+        justify-content: right;
+    }
+
+    .socials {
+        width: 40px;
+        height: 40px;
+        margin-top: 58px;
+        margin-left: 97.7%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .socials i {
+        padding: 12px;
+        font-size: 24px;
+        color: $white;
+        background: $blue;
     }
 }
