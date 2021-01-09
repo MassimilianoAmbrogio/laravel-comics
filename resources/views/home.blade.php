@@ -29,7 +29,7 @@
                    </div>
                 </ul>
            </div>
-           {{-- Cont img --}}
+           {{-- Cont img and text--}}
            <div class="cont-blue flex align-center">
               <img src="./images/digital-comics.png" alt="Digital comics">
               <p>Digital Comics</p>

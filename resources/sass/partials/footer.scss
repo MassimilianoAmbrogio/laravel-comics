@@ -1,10 +1,95 @@
 footer {
+// Cont footer imgs
     width: 100%;
-    height: 600px;
+    height: 620px;
     background: $primary-col;
     background-image: url('../images/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
+    .cont-footer {
+        justify-content: left;
+        background-image: url('../images/logo-footer.png');
+        background-repeat: no-repeat;
+        background-position: 86% 50%;
+        background-size: 38%;
+    }
     
-    
+    .cont-comics-shop {
+        width: 12%;
+        height: 450px;
+        margin-top: 40px;
+        margin-left: 9%;
+    }
+
+    .cont-footer h1 {
+        color: $white;
+        text-transform: uppercase;
+    }
+
+    .cont-footer p {
+        font-weight: 600;
+        color: $grey;
+    }
+
+    .cont-copyright {
+        width: 40%;
+        height: 42px;
+        margin-top: 20px;
+        margin-left: 9%;
+        margin-bottom: 50px;
+        font-weight: 600;
+    }
+
+    .cont-copyright p {
+        color: $grey;
+    }
+
+    .cont-copyright a {
+        text-decoration: none;
+        color: $primary-col;
+    }
+
+    .cont-bottom-icons {
+        width: 100%;
+        height: 140px;
+        justify-content: left;
+        background: $footer-black;
+    }
+
+    .cont-bottom-icons button {
+        padding: 15px 20px;
+        margin-left: 9%;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 600;
+        color: $white;
+        background: transparent;
+        border: 2px solid $primary-col;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .icons {
+        width: 70%;
+        height: 80px;
+        justify-content: right;
+    }
+
+    .icons p {
+        padding: 20px;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $primary-col;
+    }
+
+    .icons i {
+        padding: 10px 10px 7px;
+        margin-left: 20px;
+        font-size: 28px;
+        border-radius: 30px;
+        color: $footer-black;
+        background: $footer-grey;
+    }
 }

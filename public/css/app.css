@@ -127,6 +127,14 @@ body {
   text-transform: uppercase;
 }
 
+.cont-dc,
+.cont-sites {
+  width: 10%;
+  height: 450px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
 header .cont-power-add {
   justify-content: right;
   width: 100%;
@@ -150,10 +158,12 @@ header .cont-power-add .fa-sort-down {
   cursor: pointer;
 }
 header .navbar-brand img {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 header .lists {
   list-style: none;
+  margin-top: 64px;
 }
 header .lists .no-list {
   color: #464646;
@@ -161,7 +171,7 @@ header .lists .no-list {
   padding: 20px;
 }
 header .lists .icon-2 {
-  margin-top: -20px;
+  margin-top: -21px;
   padding-left: 76px;
   color: #0282f9;
   cursor: pointer;
@@ -174,30 +184,31 @@ header .search {
   text-decoration: none;
   font-size: 18px;
   font-weight: 800;
-  color: #000;
   border-bottom: 2px solid #0282f9;
+  color: #000;
 }
 header .fa-search {
-  margin-top: -23px;
+  margin-top: -22px;
   margin-left: 160px;
   padding: 4px;
   color: #1c1c1c;
   border-bottom: 2px solid #0282f9;
+  cursor: pointer;
 }
 
 main .container .cover-img {
   margin-left: 40px;
-  margin-top: 11%;
+  margin-top: 14%;
   border: 1px solid #fff;
 }
 main .container-blue {
   width: 100%;
-  height: 34px;
+  height: 67px;
   background: #0282f9;
 }
 main .container-blue p {
   display: inline-block;
-  margin-top: 2px;
+  margin-top: 35px;
   margin-left: 15%;
   font-size: 26px;
   padding: 0px 20px;
@@ -249,14 +260,93 @@ main .cont-white {
   width: 100%;
   height: 40px;
 }
+main .cont-show-blue {
+  width: 100%;
+  height: 90px;
+  background: #0282f9;
+}
 
 footer {
   width: 100%;
-  height: 600px;
+  height: 620px;
   background: #0282f9;
   background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+footer .cont-footer {
+  justify-content: left;
+  background-image: url("../images/logo-footer.png");
+  background-repeat: no-repeat;
+  background-position: 86% 50%;
+  background-size: 38%;
+}
+footer .cont-comics-shop {
+  width: 12%;
+  height: 450px;
+  margin-top: 40px;
+  margin-left: 9%;
+}
+footer .cont-footer h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+footer .cont-footer p {
+  font-weight: 600;
+  color: #8d8d8d;
+}
+footer .cont-copyright {
+  width: 40%;
+  height: 42px;
+  margin-top: 20px;
+  margin-left: 9%;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+footer .cont-copyright p {
+  color: #8d8d8d;
+}
+footer .cont-copyright a {
+  text-decoration: none;
+  color: #0282f9;
+}
+footer .cont-bottom-icons {
+  width: 100%;
+  height: 140px;
+  justify-content: left;
+  background: #303030;
+}
+footer .cont-bottom-icons button {
+  padding: 15px 20px;
+  margin-left: 9%;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #0282f9;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+footer .icons {
+  width: 70%;
+  height: 80px;
+  justify-content: right;
+}
+footer .icons p {
+  padding: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #0282f9;
+}
+footer .icons i {
+  padding: 10px 10px 7px;
+  margin-left: 20px;
+  font-size: 28px;
+  border-radius: 30px;
+  color: #303030;
+  background: #797979;
 }
 
 .general-hero {

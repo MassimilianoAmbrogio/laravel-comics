@@ -8,7 +8,7 @@
        <a href="#">Additional DC Sities</a>
        <i class="fas fa-sort-down"></i>
     </div>
-    <div class="container">
+    <div class="container flex">
         {{-- Logo home page --}}
         <a class="navbar-brand" href="{{ route('home-page') }}">
            <img src="{{ asset('images/logo.png') }}" alt="DC Comics logo">

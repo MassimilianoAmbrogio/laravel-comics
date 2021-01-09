@@ -8,6 +8,8 @@
            </div>
        </section>
 
+       <div class="cont-show-blue"></div>
+
        <section class="details mt-3 mb-3">
            <div class="container">
                <h1>{{ $comic['title'] }}</h1>
