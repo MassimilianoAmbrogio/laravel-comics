@@ -143,6 +143,64 @@ body {
   color: #fff;
 }
 
+.cont-tal:after,
+.cont-specs:after,
+.cont-img-text:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.art-by,
+.written-by,
+.series,
+.Price,
+.date {
+  width: 600px;
+  height: 50px;
+  border-top: 2px solid #eaeaea;
+}
+
+.art-by span,
+.written-by span,
+.series span {
+  color: #35badf;
+}
+
+.Price span,
+.date span {
+  color: #4c4c4c;
+}
+
+.cont-2,
+.cont-4 {
+  width: 320px;
+  height: 100px;
+  border-right: 2px solid #eaeaea;
+}
+
+.cont-2 p,
+.cont-3 p,
+.cont-4 p {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 800;
+  color: #9f9f9f;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.cont-2 img,
+.cont-3 img,
+.cont-4 img {
+  float: right;
+  width: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 header .cont-power-add {
   justify-content: right;
   width: 100%;
@@ -164,6 +222,11 @@ header .cont-power-add .fa-sort-down {
   padding-left: 4px;
   color: #fff;
   cursor: pointer;
+}
+header .links {
+  width: 60%;
+  height: 150px;
+  margin-right: 27%;
 }
 header .navbar-brand img {
   margin-top: 20px;
@@ -325,6 +388,7 @@ main .price small {
 }
 main .price .icon-3 {
   margin-left: 10px;
+  cursor: pointer;
 }
 main .cont-img-adv {
   display: inline-block;
@@ -342,6 +406,110 @@ main .cont-img-adv p {
 main .cont-img-adv img {
   width: 320px;
   cursor: pointer;
+}
+main .text .title {
+  font-weight: 600;
+  color: #555555;
+}
+main .text p {
+  padding: 4px;
+  color: #555555;
+}
+main .cont-tal-specs {
+  width: 100%;
+  height: 410px;
+  background: #f6f6f6;
+}
+main .cont-tal {
+  float: left;
+  width: 32%;
+  height: 250px;
+  margin-left: 17%;
+}
+main .tal {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+main .tal h1,
+main .specs h1 {
+  color: #003f5e;
+}
+main .art-by p,
+main .written-by p,
+main .series p,
+main .Price p,
+main .date p {
+  font-weight: 600;
+  color: #003f5e;
+}
+main .art-by span,
+main .series span {
+  margin-left: 150px;
+}
+main .written-by span {
+  margin-left: 20%;
+}
+main .written-by,
+main .date {
+  border-bottom: 2px solid #eaeaea;
+}
+main .cont-specs {
+  float: right;
+  width: 32%;
+  height: 300px;
+  margin-right: 16.8%;
+}
+main .specs {
+  width: 100px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+main .series span {
+  text-transform: uppercase;
+}
+main .Price span {
+  margin-left: 20.7%;
+}
+main .date span {
+  margin-left: 17%;
+}
+main .cont-img-text {
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid #eaeaea;
+  background: #f6f6f6;
+}
+main .cont-1 {
+  width: 320px;
+  height: 100px;
+  margin-left: 10%;
+  border-left: 2px solid #eaeaea;
+  border-right: 2px solid #eaeaea;
+}
+main .cont-1 p {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 800;
+  color: #9f9f9f;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+main .cont-1 img {
+  float: right;
+  width: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+main .cont-3 {
+  width: 340px;
+  height: 100px;
+  border-right: 2px solid #eaeaea;
 }
 
 footer {

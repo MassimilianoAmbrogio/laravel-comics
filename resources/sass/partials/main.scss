@@ -142,6 +142,7 @@ main {
 
     .price .icon-3 {
         margin-left: 10px;
+        cursor: pointer;
     }
 
     .cont-img-adv {
@@ -162,5 +163,129 @@ main {
     .cont-img-adv img {
         width: 320px;
         cursor: pointer;
+    }
+
+    .text .title {
+        font-weight: 600;
+        color: $footer-grey2;
+    }
+
+    .text p {
+        padding: 4px;
+        color: $footer-grey2;
+    }
+
+    .cont-tal-specs {
+        width: 100%;
+        height: 410px;
+        background: $light-white;
+    }
+
+    .cont-tal {
+        float: left;
+        width: 32%;
+        height: 250px;
+        margin-left: 17%;
+    }
+
+    .tal {
+        display: inline-block;
+        width: 100px;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .tal h1,
+    .specs h1 {
+        color: $blue-dark;
+    }
+
+    .art-by p,
+    .written-by p,
+    .series p,
+    .Price p,
+    .date p {
+        font-weight: 600;
+        color: $blue-dark;
+    }
+
+    .art-by span,
+    .series span {
+        margin-left: 150px;
+    }
+
+    .written-by span {
+        margin-left: 20%;
+    }
+
+    .written-by,
+    .date {
+        border-bottom: 2px solid $light-grey;
+    }
+
+    .cont-specs {
+        float: right;
+        width: 32%;
+        height: 300px;
+        margin-right: 16.8%;
+    }
+
+    .specs {
+        width: 100px;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .series span {
+        text-transform: uppercase;
+    }
+
+    .Price span {
+        margin-left: 20.7%;
+    }
+
+    .date span {
+        margin-left: 17%;
+    }
+
+    .cont-img-text {
+        width: 100%;
+        height: 200px;
+        border-top: 1px solid $light-grey;
+        background: $light-white;
+    }
+
+    .cont-1 {
+        width: 320px;
+        height: 100px;
+        margin-left: 10%;
+        border-left: 2px solid $light-grey;
+        border-right: 2px solid $light-grey;
+    }
+
+    .cont-1 p {
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: 800;
+        color: $grey2;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .cont-1 img {
+        float: right;
+        width: 50px;
+        margin-top: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .cont-3 {
+        width: 340px;
+        height: 100px;
+        border-right: 2px solid $light-grey;
     }
 }

@@ -21,5 +21,8 @@ Route::get('/', 'HomeController@index')->name('home-page');
 /**
  * COMICS DETAIL
  */
+// A
 // Route::get('/comic/{id}', 'ComicController@show')->name('comic-detail');
+
+// B
 Route::get('/comic/{slug}', 'ComicController@show')->name('comic-detail');

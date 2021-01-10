@@ -7,7 +7,7 @@ $comics = [
         'image-cover' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/06/actioncomics_957_5b1c1ca448dcd2.62281310.jpg?itok=U_cqqzSq',
         'title' => 'ACTION COMICS',
         'price' => 9.99,
-        'body' => '<p>“PATH TO DOOM” Chapter One</p><p>Superman returns to Metropolis just in time to meet the city of tomorrow’s newest protector: Lex Luthor. But it’s not long before these dueling titans meet someone unexpected — the new Clark Kent!</p><p>DON’T MISS: ACTION COMICS returns to its original numbering with this issue!</p><p>NOW SHIPPING TWICE MONTHLY!&nbsp;</p><p>&nbsp;</p>'
+        'body' => '<p class="title">“PATH TO DOOM” Chapter One</p><p>Superman returns to Metropolis just in time to meet the city of tomorrow’s newest protector: Lex Luthor. But it’s not long before these dueling titans meet someone unexpected — the new Clark Kent!</p><p>DON’T MISS: ACTION COMICS returns to its original numbering with this issue!</p><p>NOW SHIPPING TWICE MONTHLY!&nbsp;</p><p>&nbsp;</p>'
     ],
     [
         'id' => 101,
@@ -34,7 +34,7 @@ $comics = [
         'image-cover' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/06/aquaman_v8_1_5b1c472c07a968.94263197.jpg?itok=rhyHaTKh',
         'title' => 'AQUAMAN',
         'price' => 9.99,
-        'body' => '<p>“THE DROWNING” Chapter One</p><p>Black Manta returns, and as Aquaman attempts to broker lasting peace between Atlantis and the surface world, his greatest foe engineers a plan to destroy everything and everyone the undersea hero loves.</p><p>THEY SAID IT: “I’m excited to draw a vast undersea world with all the visual flourishes of fantasy and science fiction that it affords,” says artist Brad Walker. “I’ve done so much work in outer space-based comics, and I love the freedom that allows.”</p><p><span style="letter-spacing: 0.39px;">NOW SHIPPING TWICE MONTHLY!</span></p>'
+        'body' => '<p class="title">“THE DROWNING” Chapter One</p><p>Black Manta returns, and as Aquaman attempts to broker lasting peace between Atlantis and the surface world, his greatest foe engineers a plan to destroy everything and everyone the undersea hero loves.</p><p>THEY SAID IT: “I’m excited to draw a vast undersea world with all the visual flourishes of fantasy and science fiction that it affords,” says artist Brad Walker. “I’ve done so much work in outer space-based comics, and I love the freedom that allows.”</p><p><span style="letter-spacing: 0.39px;">NOW SHIPPING TWICE MONTHLY!</span></p>'
     ],
     [
         'id' => 104,
@@ -43,7 +43,7 @@ $comics = [
         'image-cover' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/06/batman_v3_1_5b2adc847ca666.49501050.jpg?itok=KMs1b9dT',
         'title' => 'BATMAN',
         'price' => 2.99,
-        'body' => '<p>“I AM GOTHAM” Chapter One</p><p>No one has ever stopped the Caped Crusader. Not The Joker. Not Two-Face. Not even the entire Justice League. But how does Batman confront a new hero who wants to save the city from the Dark Knight?</p><p>CAN’T MISS: Superstar artist David Finch returns to the Dark Knight alongside writer Tom King for this five-part storyline.</p><p>NOW SHIPPING TWICE MONTHLY!</p>'
+        'body' => '<p class="title">“I AM GOTHAM” Chapter One</p><p>No one has ever stopped the Caped Crusader. Not The Joker. Not Two-Face. Not even the entire Justice League. But how does Batman confront a new hero who wants to save the city from the Dark Knight?</p><p>CAN’T MISS: Superstar artist David Finch returns to the Dark Knight alongside writer Tom King for this five-part storyline.</p><p>NOW SHIPPING TWICE MONTHLY!</p>'
     ],
     [
         'id' => 105,
@@ -52,7 +52,7 @@ $comics = [
         'image-cover' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/06/bmbeyond_v6_1_5b23ea6ce0a252.68351287.jpg?itok=1YF74sf3',
         'title' => 'BATMAN BEYOND',
         'price' => 2.99,
-        'body' => '<p>“THE RETURN” part one! Terry McGinnis is back as Batman, much to the delight of his family and friends. But is the original Joker really back as well? Inspired by the possible return of their role model, the Jokerz have taken over an entire section of Gotham City and are determined to wreak havoc in the still-rebuilding city. While Batman battles chaos on the streets, his friend Dana is at the mercy of the new leader of the now-unified gang.&nbsp;</p>'
+        'body' => '<p class="title">“THE RETURN” part one!</p><p>Terry McGinnis is back as Batman, much to the delight of his family and friends. But is the original Joker really back as well? Inspired by the possible return of their role model, the Jokerz have taken over an entire section of Gotham City and are determined to wreak havoc in the still-rebuilding city. While Batman battles chaos on the streets, his friend Dana is at the mercy of the new leader of the now-unified gang.&nbsp;</p>'
     ],
     [
         'id' => 106,
@@ -97,7 +97,7 @@ $comics = [
         'image-cover' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/12/BLKADMS_EWS_01_300-001_HD_5fd264622e8309.50154731.jpg?itok=tQY2n9OP',
         'title' => 'BLACK ADAM: ENDLESS WINTER SPECIAL',
         'price' => 3.99,
-        'body' => '<p>“Endless Winter” chapter eight! Seeking to bolster his nation’s place in the world, Black Adam arrives in Gotham City demanding action to end the threat causing an endless winter across the globe. But Black Adam isn’t telling the world’s leaders everything-especially not that he’s faced the mysterious Frost King before and won. Find out what Adam’s hiding in the penultimate chapter of “Endless Winter.”</p>'
+        'body' => '<p class="title">“Endless Winter” chapter eight!</p><p>Seeking to bolster his nation’s place in the world, Black Adam arrives in Gotham City demanding action to end the threat causing an endless winter across the globe. But Black Adam isn’t telling the world’s leaders everything-especially not that he’s faced the mysterious Frost King before and won. Find out what Adam’s hiding in the penultimate chapter of “Endless Winter.”</p>'
     ],
     [
         'id' => 111,

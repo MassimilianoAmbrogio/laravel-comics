@@ -60,3 +60,64 @@
     font-size: 24px;
     color: $white;
 }
+
+// SHOW 
+.cont-tal,
+.cont-specs,
+.cont-img-text {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.art-by,
+.written-by,
+.series,
+.Price,
+.date {
+    width: 600px;
+    height: 50px;
+    border-top: 2px solid $light-grey;
+}
+
+.art-by span,
+.written-by span,
+.series span {
+    color: $light-blue;
+}
+
+.Price span,
+.date span {
+    color: $light-grey3;
+}
+
+.cont-2,
+.cont-4 {
+    width: 320px;
+    height: 100px;
+    border-right: 2px solid $light-grey;
+}
+
+.cont-2 p,
+.cont-3 p,
+.cont-4 p {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+    color: $grey2;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cont-2 img,
+.cont-3 img,
+.cont-4 img {
+    float: right;
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
