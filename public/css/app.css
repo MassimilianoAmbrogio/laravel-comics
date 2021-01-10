@@ -135,6 +135,14 @@ body {
   margin-left: 30px;
 }
 
+.socials .fa-facebook-f,
+.socials .fa-twitter,
+.socials .fa-pinterest,
+.socials .fa-plus {
+  font-size: 24px;
+  color: #fff;
+}
+
 header .cont-power-add {
   justify-content: right;
   width: 100%;
@@ -274,11 +282,66 @@ main .socials {
   justify-content: center;
   flex-direction: column;
 }
-main .socials i {
-  padding: 12px;
-  font-size: 24px;
-  color: #fff;
+main .socials .fa-facebook-f {
+  padding: 16px;
   background: #3b5998;
+}
+main .socials .fa-twitter {
+  padding: 11px;
+  background: #1ea1f2;
+}
+main .socials .fa-pinterest {
+  padding: 12px;
+  background: #cb2128;
+}
+main .socials .fa-plus {
+  padding: 13px;
+  background: #ff6651;
+}
+main .container h1 {
+  font-size: 34px;
+  color: #003f5e;
+}
+main .cont-price {
+  max-width: 720px;
+  margin-left: 20%;
+}
+main .cont-price .price {
+  padding: 20px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #fff;
+  background: #55ba59;
+  border-bottom: 1px solid #8d8d8d;
+}
+main .price span {
+  margin-left: 20%;
+  text-transform: uppercase;
+  color: #b1f796;
+}
+main .price small {
+  margin-left: 80px;
+  font-size: 16px;
+}
+main .price .icon-3 {
+  margin-left: 10px;
+}
+main .cont-img-adv {
+  display: inline-block;
+  width: 330px;
+  height: 330px;
+  margin-top: 7%;
+  margin-left: 60.7%;
+}
+main .cont-img-adv p {
+  margin-left: 49%;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}
+main .cont-img-adv img {
+  width: 320px;
+  cursor: pointer;
 }
 
 footer {

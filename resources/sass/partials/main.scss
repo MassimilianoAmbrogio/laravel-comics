@@ -90,10 +90,77 @@ main {
         flex-direction: column;
     }
 
-    .socials i {
-        padding: 12px;
-        font-size: 24px;
-        color: $white;
+    .socials .fa-facebook-f {
+        padding: 16px;
         background: $blue;
+    }
+
+    .socials .fa-twitter {
+        padding: 11px;
+        background: $blue-light;
+    }
+
+    .socials .fa-pinterest {
+        padding: 12px;
+        background: $red;
+    }
+
+    .socials .fa-plus {
+        padding: 13px;
+        background: $orange;
+    }
+
+    .container h1 {
+        font-size: 34px;
+        color: $blue-dark;
+    }
+
+    .cont-price {
+        max-width: 720px;
+        margin-left: 20%;
+    }
+
+    .cont-price .price {
+        padding: 20px;
+        margin-bottom: 40px;
+        font-weight: 600;
+        color: $white;
+        background: $green;
+        border-bottom: 1px solid $grey;
+    }
+
+    .price span {
+        margin-left: 20%;
+        text-transform: uppercase;
+        color: $light-green;
+    }
+
+    .price small {
+       margin-left: 80px;
+       font-size: 16px;
+    }
+
+    .price .icon-3 {
+        margin-left: 10px;
+    }
+
+    .cont-img-adv {
+        display: inline-block;
+        width: 330px;
+        height: 330px;
+        margin-top: 7%;
+        margin-left: 60.7%;
+    }
+
+    .cont-img-adv p {
+        margin-left: 49%;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .cont-img-adv img {
+        width: 320px;
+        cursor: pointer;
     }
 }
