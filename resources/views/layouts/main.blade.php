@@ -16,8 +16,10 @@
         {{-- Inizio esercizio laravel comics --}}
 
         @include('partials.header')
-
-        @yield('content-main')
+        
+        <main>
+           @yield('content-main')
+        </main>
 
         @include('partials.footer')
 
