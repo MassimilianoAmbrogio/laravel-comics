@@ -447,10 +447,10 @@ main .date p {
 }
 main .art-by span,
 main .series span {
-  margin-left: 150px;
+  margin-left: 111px;
 }
 main .written-by span {
-  margin-left: 20%;
+  margin-left: 14%;
 }
 main .written-by,
 main .date {
@@ -472,10 +472,10 @@ main .series span {
   text-transform: uppercase;
 }
 main .Price span {
-  margin-left: 20.7%;
+  margin-left: 14.7%;
 }
 main .date span {
-  margin-left: 17%;
+  margin-left: 11%;
 }
 main .cont-img-text {
   width: 100%;
